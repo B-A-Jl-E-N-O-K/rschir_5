@@ -1,0 +1,47 @@
+
+books
+
+{
+"name": "ffasf",
+"price": 13,
+"author": "sfs",
+"numberSeller": 12,
+"allQuantity": 1123
+}
+
+clients
+
+{
+    "name": "ff2sffafsfasf",
+    "email": "sffasfafsafs@madf.rt",
+    "login": "ewrwe",
+    "password": "afd43zvd"
+}
+
+telephones
+
+{
+    "name": "111",
+    "price": 111,
+    "efficiency": 111,
+    "capacity": 111,
+    "numberSeller": 12,
+    "allQuantity": 1123
+}
+
+washing-machines
+
+
+basketDetail - данные должны быть фактически на месет, иначе не пройдет
+
+{
+    "quantity": 10,
+    "product_id": 2,
+    "typeProduct": "PLUMBING"
+}
+
+
+
+POST http://localhost:8080/basket/buy/5 - покупка, id клиента
+
+http://localhost:8080/books
